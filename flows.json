@@ -51,5 +51,24 @@
         "x": 380,
         "y": 120,
         "wires": []
+    },
+    {
+        "id": "bfa629fd8709073f",
+        "type": "chat-gpt-responses",
+        "z": "704e35c42dc62c06",
+        "openAIKey": "",
+        "name": "",
+        "prompt": "",
+        "sessionKey": "",
+        "sessionKeyType": "msg",
+        "messageKey": "payload",
+        "messageKeyType": "msg",
+        "outputs": 2,
+        "x": 240,
+        "y": 200,
+        "wires": [
+            [],
+            []
+        ]
     }
 ]
