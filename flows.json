@@ -29,7 +29,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 150,
-        "y": 80,
+        "y": 100,
         "wires": [
             [
                 "9f67c56c8303d8c6"
@@ -48,27 +48,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 380,
-        "y": 120,
+        "x": 440,
+        "y": 100,
         "wires": []
-    },
-    {
-        "id": "bfa629fd8709073f",
-        "type": "chat-gpt-responses",
-        "z": "704e35c42dc62c06",
-        "openAIKey": "",
-        "name": "",
-        "prompt": "",
-        "sessionKey": "",
-        "sessionKeyType": "msg",
-        "messageKey": "payload",
-        "messageKeyType": "msg",
-        "outputs": 2,
-        "x": 240,
-        "y": 200,
-        "wires": [
-            [],
-            []
-        ]
     }
 ]
